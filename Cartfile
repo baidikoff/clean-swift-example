@@ -1,0 +1,5 @@
+github "Alamofire/Alamofire"
+github "ReactiveX/RxSwift"
+github "ivlevAstef/DITranquillity"
+github "devxoul/Then"
+github "SwifterSwift/SwifterSwift"

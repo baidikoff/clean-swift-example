@@ -1,0 +1,6 @@
+github "Alamofire/Alamofire" "4.8.1"
+github "ReactiveX/RxSwift" "4.4.1"
+github "SwifterSwift/SwifterSwift" "4.6.0"
+github "devxoul/Then" "2.4.0"
+github "ivlevAstef/DITranquillity" "4.0.1"
+github "ivlevAstef/SwiftLazy" "v1.1.2"
