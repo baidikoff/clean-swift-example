@@ -1,0 +1,33 @@
+query GetAllPairs {
+    allPairs {
+        id
+        first
+        second
+    }
+}
+
+mutation CreatePair($first: String!, $second: String!) {
+    createPair(first: $first, second: $second) {
+        id
+    }
+}
+
+mutation UpdatePair($id: ID!, $first: String!, $second: String!) {
+    updatePair(id: $id, first: $first, second: $second) {
+        id
+        first
+        second
+    }
+}
+
+subscription PairMutation {
+    Pair(filter: { mutation_in: [UPDATED, CREATED, DELETED] }) {
+        node {
+            id
+            first
+            second
+        }
+        mutation
+    }
+}
+

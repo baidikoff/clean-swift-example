@@ -1,5 +1,4 @@
-github "Alamofire/Alamofire"
 github "ReactiveX/RxSwift"
 github "ivlevAstef/DITranquillity"
-github "devxoul/Then"
-github "SwifterSwift/SwifterSwift"
+github "RxSwiftCommunity/RxAlamofire"
+github "RxSwiftCommunity/RxOptional"
